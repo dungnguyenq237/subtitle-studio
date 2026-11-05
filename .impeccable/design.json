@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "title": "Design System: Subtitle Studio",
+  "extensions": {
+    "motion": [
+      {
+        "name": "focal-entrance",
+        "value": "650ms",
+        "purpose": "One bounded demo entrance; disabled for reduced motion."
+      },
+      {
+        "name": "task-feedback",
+        "value": "220ms",
+        "purpose": "New output continuity."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "700px"
+      }
+    ]
+  },
+  "narrative": {
+    "northStar": "The subtitle finishing room",
+    "overview": "Tonal graphite layers and a warm playhead accent surround a working subtitle editor. The caption demonstration is explicitly sample content; the timeline moves only on request.",
+    "rules": [
+      {
+        "name": "Local processing",
+        "body": "No external requests for user content."
+      }
+    ]
+  }
+}

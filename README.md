@@ -1,26 +1,28 @@
 # Subtitle Studio
 
-Fix subtitle timing and convert SRT and VTT files privately in your browser.
+Shift subtitle timing, convert SRT/WebVTT and surface timing or readability issues.
 
-## Run
+## Development
 
-Requires Node 20+ for tests and Python 3 for the preview server. No install or build step.
+Native browser ES modules, authored CSS and no build dependency. Node 20+ runs tests; Python 3 serves a local preview.
 
 ```sh
 npm test
 npm run serve
 ```
 
-Open http://localhost:8000. Source uses native ES modules and platform browser APIs.
+Open http://localhost:8000. GitHub Pages publishes main from the root. Relative paths support project subdirectories.
 
-## GitHub Pages
+## Design
 
-Publish `main` from `/ (root)` in repository Settings → Pages. All paths are relative and work under a project subpath. `.nojekyll` disables Jekyll processing.
+Distinctive UI/UX and purposeful motion informed by [Impeccable](https://github.com/pbakaus/impeccable) new-work, animate and craft-floor references. The engine and detector are not installed or claimed as run. PRODUCT.md records product truth; DESIGN.md and .impeccable/design.json document the implemented design.
 
-## Privacy and monetization
+Self-hosted subset fonts: Studio (Miriam Libre Bold). See assets/FONT-LICENSE.txt and assets/OFL.txt. All styling and animation are local.
 
-Files and input stay in the browser. No accounts, trackers, ads, external fonts, paid APIs or analytics are included. Free review release; rewarded ads require a separately approved publisher account, consent flow and real ad lifecycle verification. Do not simulate rewarded views.
+## Privacy and release scope
 
-## Review checklist
+Input stays in the browser. No advertising, analytics, accounts, AI services or background agent are activated. Sample data is illustrative. Verify output before distributing it.
 
-Run tests; try sample content, invalid input, mobile layout and keyboard navigation. Check the exported file or print preview before distribution.
+## Review
+
+Test file conversion / generation, invalid inputs, keyboard focus, narrow viewport, reduced motion and downloads / print preview.
