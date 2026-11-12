@@ -4,7 +4,7 @@ const sourceURL = new URL('./i18n/en.json', import.meta.url);
 let source = {}, dictionary = {}, current = 'en', sequence = 0;
 const originals = new WeakMap();
 const attributes = new WeakMap();
-const excluded = 'script,style,svg,pre,code,textarea,[data-user-content],.language-control,#output,#demo-clock,.preview-title,.cell:not(.free)';
+const excluded = 'script,style,svg,pre,code,textarea,[data-user-content],.language-control,#output,#demo-clock,.cell:not(.free)';
 export function resolveLanguage(value) { return languages.some(l => l.code === value) ? value : 'en'; }
 export function buildTranslator(source, dictionary) {
  const reverse = new Map(Object.entries(source).map(([id,text])=>[text,id]));
@@ -29,7 +29,10 @@ export function buildTranslator(source, dictionary) {
 }
 let render = text => text;
 export function translate(text) { return render(text); }
-function excludedNode(node) { return !node.parentElement || node.parentElement.closest(excluded); }
+function excludedNode(node) {
+ if (node.parentElement?.id === 'output' && !node.parentElement.dataset.userContent) return false;
+ return !node.parentElement || node.parentElement.closest(excluded);
+}
 function localizeText(node) {
  if (excludedNode(node)) return;
  const text = node.nodeValue;
@@ -63,6 +66,24 @@ function refresh(root = document.documentElement) {
   current === 'en' ? url.searchParams.delete('lang') : url.searchParams.set('lang',current);
   a.href = url.pathname + url.search + url.hash;
  }
+}
+// cloneNode does not copy WeakMap source text. Preserve it before localizing previews.
+export function cloneLocalized(node) {
+ const clone=node.cloneNode(true);
+ const originalWalker=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);
+ const cloneWalker=document.createTreeWalker(clone,NodeFilter.SHOW_TEXT);
+ while(originalWalker.nextNode() && cloneWalker.nextNode()) {
+  const record=originals.get(originalWalker.currentNode);
+  if(record) originals.set(cloneWalker.currentNode,{...record});
+ }
+ const oldElements=[node,...node.querySelectorAll('*')];
+ const newElements=[clone,...clone.querySelectorAll('*')];
+ oldElements.forEach((el,index)=>{
+  const record=attributes.get(el);
+  if(record) attributes.set(newElements[index],Object.fromEntries(Object.entries(record).map(([name,value])=>[name,{...value}])));
+ });
+ refresh(clone);
+ return clone;
 }
 async function readCatalog(code) {
  const response = await fetch(new URL(`./i18n/${code}.json`,import.meta.url),{signal:AbortSignal.timeout(10000)});
@@ -109,7 +130,7 @@ async function start() {
  await changeLanguage(requested,{persist:false});
  let queued=false;
  new MutationObserver(records=>{
-  if (queued || records.every(r=>r.target.nodeType===1 && r.target.closest('.language-control'))) return;
+  if (queued || records.every(r=>{ const el=r.target.nodeType===1?r.target:r.target.parentElement; return el?.closest('.language-control,#demo-clock,#output,[data-user-content]'); })) return;
   queued=true;queueMicrotask(()=>{queued=false;refresh();});
  }).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','placeholder']});
  document.documentElement.dataset.i18nReady='true';

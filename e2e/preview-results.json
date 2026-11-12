@@ -1,0 +1,3360 @@
+{
+  "environment": "Chromium via CUA, local managed preview",
+  "locales": 38,
+  "home": [
+    {
+      "language": "en",
+      "pass": true
+    },
+    {
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "language": "es",
+      "pass": true
+    },
+    {
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "language": "id",
+      "pass": true
+    },
+    {
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "language": "de",
+      "pass": true
+    },
+    {
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "language": "te",
+      "pass": true
+    },
+    {
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "language": "am",
+      "pass": true
+    },
+    {
+      "language": "th",
+      "pass": true
+    },
+    {
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "language": "it",
+      "pass": true
+    },
+    {
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "language": "en",
+      "pass": true
+    },
+    {
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "language": "es",
+      "pass": true
+    },
+    {
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "language": "id",
+      "pass": true
+    },
+    {
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "language": "de",
+      "pass": true
+    },
+    {
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "language": "te",
+      "pass": true
+    },
+    {
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "language": "am",
+      "pass": true
+    },
+    {
+      "language": "th",
+      "pass": true
+    },
+    {
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "language": "it",
+      "pass": true
+    },
+    {
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "language": "bho",
+      "pass": true
+    }
+  ],
+  "content": [
+    {
+      "page": "about.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "subtitle-delay.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "srt-vtt-conversion.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "subtitle-errors.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "about.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "privacy.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "page": "guide.html",
+      "language": "bho",
+      "pass": true
+    }
+  ],
+  "mobile": [
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "320",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "app": "subtitle-studio",
+      "width": "390",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "320",
+      "language": "bho",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "zh",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "hi",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "es",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "ar",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "fr",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "bn",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "pt",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "id",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "ur",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "ru",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "de",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "ja",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "pcm",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "arz",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "mr",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "vi",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "te",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "sw",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "ha",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "tr",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "pnb",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "tl",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "ta",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "yue",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "wuu",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "fa",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "ko",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "am",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "th",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "jv",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "it",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "gu",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "kn",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "apc",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "apd",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "yo",
+      "pass": true
+    },
+    {
+      "app": "party-paper",
+      "width": "390",
+      "language": "bho",
+      "pass": true
+    }
+  ],
+  "flows": {
+    "subtitle": {
+      "conversion": true,
+      "outputPreserved": true,
+      "negativeOffset": true
+    },
+    "party": {
+      "bingo": true,
+      "wordSearch": true,
+      "answerKey": true,
+      "validation": true,
+      "drafts": true
+    },
+    "subtitleRegressions": {
+      "exactNegativeOffsetError": true,
+      "exactTimestampError": true
+    },
+    "partyRegressions": {
+      "cloneSwitchback": true,
+      "answerKeyLabels": true,
+      "userContentPreserved": true,
+      "exactWordSearchError": true
+    },
+    "subtitlePreference": {
+      "navigation": true,
+      "storedPreference": true,
+      "keyboard": true
+    },
+    "partyPreference": {
+      "navigation": true,
+      "storedPreference": true,
+      "keyboard": true
+    }
+  },
+  "additional": {
+    "missingCatalogFallback": true,
+    "rapidSwitch": true,
+    "realVTTDownload": true,
+    "printCSS": true
+  },
+  "limitations": [
+    "Native Print/PDF dialog did not open in the test environment; actual PDF file not verified.",
+    "Machine translations have not been reviewed by native-language editors."
+  ]
+}

@@ -1,0 +1,3 @@
+import {defineConfig,devices} from '@playwright/test';
+const baseURL=process.env.E2E_BASE_URL||'http://127.0.0.1:8765/';
+export default defineConfig({testDir:'./e2e',testMatch:'playwright.spec.mjs',timeout:120000,globalTimeout:600000,forbidOnly:!!process.env.CI,retries:0,workers:1,reporter:[['list'],['html',{open:'never'}]],use:{baseURL,viewport:{width:1280,height:900},trace:'retain-on-failure',screenshot:'only-on-failure'},projects:[{name:'chromium',use:{...devices['Desktop Chrome'],viewport:{width:1280,height:900}}}],webServer:process.env.E2E_BASE_URL?undefined:{command:'python3 -m http.server 8765 --bind 127.0.0.1',url:baseURL,reuseExistingServer:!process.env.CI}});
