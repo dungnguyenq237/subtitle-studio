@@ -11,7 +11,7 @@ header .language-control{margin-inline-start:auto;gap:8px;flex-basis:auto;paddin
 .theme-switch button{display:grid;place-items:center;width:44px;height:44px;padding:10px;border:0;border-radius:10px;background:transparent;color:var(--muted);transition:background .18s,color .18s;min-height:44px}
 .theme-switch svg{width:19px;height:19px}.theme-switch button:hover{background:var(--surface-raised);color:var(--ink)}.theme-switch button[aria-pressed=true]{background:var(--ink);color:var(--ground);box-shadow:0 2px 6px #0002}
 :focus-visible{outline:3px solid var(--focus)!important;outline-offset:4px!important}
-.hero{position:relative;grid-template-columns:1.04fr 1fr;gap:44px;padding:90px 0 76px;min-height:640px;isolation:isolate}.hero:before{content:'';position:absolute;inset:0 -1px;z-index:-1;pointer-events:none;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;opacity:.09;mask-image:linear-gradient(to bottom,transparent,black,transparent)}
+.hero{position:relative;grid-template-columns:minmax(0,1.04fr) minmax(0,1fr);gap:44px;padding:90px 0 76px;min-height:640px;isolation:isolate}.hero:before{content:'';position:absolute;inset:0 -1px;z-index:-1;pointer-events:none;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;opacity:.09;mask-image:linear-gradient(to bottom,transparent,black,transparent)}
 .hero-copy:before{content:'SUBTITLE STUDIO / 01';display:block;font:11px/1.5 ui-monospace,monospace;letter-spacing:.16em;color:var(--accent);margin-bottom:28px}
 .hero h1{font-size:clamp(64px,7.1vw,104px);line-height:1.02;letter-spacing:-.055em}.hero h1 em{display:inline-block;text-shadow:0 8px 40px var(--glow)}.hero-copy>p{font-size:16px;max-width:43ch;line-height:1.85}
 .button,.primary{border-radius:14px;background:var(--action);color:var(--on-action);padding:17px 24px;box-shadow:0 8px 24px var(--glow);min-height:52px;transition:transform .2s,box-shadow .2s,background .2s}.button:hover,.primary:hover{background:var(--action);box-shadow:0 12px 28px var(--glow);transform:translateY(-3px)}.button:active,.primary:active{transform:translateY(0)}
@@ -34,3 +34,6 @@ html[lang]:not([lang=en]) .hero h1{font-size:clamp(40px,5.5vw,80px);line-height:
 @media print{header,.theme-switch{display:none!important}body{background:white;color:black}.workspace,.output-panel{box-shadow:none;background:white;color:black}}
 
 .button svg,.primary svg,#generate svg,.download-row svg{flex-shrink:0;width:18px;height:18px}
+
+/* Keep font metrics from resizing intrinsic grid tracks during first render. */
+.hero-copy,.timing-demo{min-width:0}

@@ -61,3 +61,20 @@ test('both themes have readable tokens, mobile RTL layout, and reduced motion',a
   await page.locator('#site-language').selectOption('en');
  }
 });
+test('delayed brand font does not move the hero after first paint',async({page})=>{
+ await page.addInitScript(()=>{
+  window.__layoutShifts=[];
+  new PerformanceObserver(list=>{
+   for(const entry of list.getEntries())if(!entry.hadRecentInput)window.__layoutShifts.push(entry.value);
+  }).observe({type:'layout-shift',buffered:true});
+ });
+ await page.route('**/assets/studio.woff2',async route=>{
+  await new Promise(resolve=>setTimeout(resolve,800));await route.continue();
+ });
+ await page.goto(base+'?lang=en');
+ await expect(page.locator('html')).toHaveAttribute('data-i18n-ready','true');
+ await page.evaluate(async()=>{await document.fonts.ready;await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));});
+ const cls=await page.evaluate(()=>window.__layoutShifts.reduce((sum,value)=>sum+value,0));
+ console.log('[performance:delayed-font]',{cls});
+ expect(cls).toBeLessThanOrEqual(.02);
+});

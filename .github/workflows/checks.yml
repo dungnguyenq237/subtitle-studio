@@ -18,6 +18,15 @@ jobs:
       - run: npm test
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
+      - name: Measure desktop and mobile Lighthouse performance
+        run: |
+          mkdir -p performance-report
+          python3 -m http.server 8766 --bind 127.0.0.1 > /tmp/performance-server.log 2>&1 &
+          PERF_SERVER_PID=$!
+          trap 'kill "$PERF_SERVER_PID"' EXIT
+          npx --yes lighthouse@13.6.0 http://127.0.0.1:8766/ --preset=desktop --only-categories=performance --chrome-flags="--headless --no-sandbox" --output=json --output-path=performance-report/desktop.json --quiet
+          npx --yes lighthouse@13.6.0 http://127.0.0.1:8766/ --only-categories=performance --chrome-flags="--headless --no-sandbox" --output=json --output-path=performance-report/mobile.json --quiet
+          node scripts/check-performance.mjs
       - uses: actions/upload-artifact@v5
         if: ${{ !cancelled() }}
         with:
@@ -25,4 +34,5 @@ jobs:
           path: |
             playwright-report/
             test-results/
+            performance-report/
           retention-days: 7
