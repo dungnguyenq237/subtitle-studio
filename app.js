@@ -1,4 +1,4 @@
-import {translate} from './assets/i18n.js?v=1';
+import {translate} from './assets/i18n.js?v=2';
 import {parseSubtitles,shiftCues,serialize,formatTime} from './core.js';
 const main=document.querySelector('main');
 

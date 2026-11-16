@@ -8,6 +8,7 @@ for (const mode of ['desktop', 'mobile']) {
   const cls = report.audits['cumulative-layout-shift'].numericValue;
   const lcp = report.audits['largest-contentful-paint'].numericValue;
   console.log(`${mode}: performance=${Math.round(score * 100)}, CLS=${cls.toFixed(4)}, LCP=${Math.round(lcp)}ms`);
+  if (cls > .02) console.error('[performance:layout-shifts]', JSON.stringify(report.audits['layout-shifts']?.details));
   if (score < .95 || cls > .02 || !Number.isFinite(lcp)) failed = true;
 }
 if (failed) throw new Error('Performance budget exceeded: score >=95 and CLS <=0.02 required. See Lighthouse artifacts.');

@@ -116,12 +116,12 @@ export async function changeLanguage(code, {persist = true} = {}) {
 }
 async function start() {
  const header = document.querySelector('header'); if (!header) return;
- const control = document.createElement('div'); control.className = 'language-control no-print';
- const label = document.createElement('label');label.htmlFor = 'site-language';label.textContent = 'Language';
- const select = document.createElement('select');select.id = 'site-language';select.setAttribute('aria-label','Choose language');
- for (const locale of languages) { const option = new Option(`${locale.flag} ${locale.name}`,locale.code); option.lang = locale.code; option.dir = locale.dir;select.add(option); }
- const status = document.createElement('span');status.className = 'language-status';status.setAttribute('role','status');
- control.append(label,select,status);header.append(control);
+ const control = header.querySelector('.language-control') ?? document.createElement('div'); control.className = 'language-control no-print';
+ const label = control.querySelector('label') ?? document.createElement('label');label.htmlFor = 'site-language';label.textContent = 'Language';
+ const select = control.querySelector('select') ?? document.createElement('select');select.id = 'site-language';select.setAttribute('aria-label','Choose language');
+ if (!select.options.length) for (const locale of languages) { const option = new Option(`${locale.flag} ${locale.name}`,locale.code); option.lang = locale.code; option.dir = locale.dir;select.add(option); }
+ const status = control.querySelector('.language-status') ?? document.createElement('span');status.className = 'language-status';status.setAttribute('role','status');
+ control.append(label,select,status);header.insertBefore(control,header.querySelector('.theme-switch'));
  try { const response = await fetch(sourceURL,{signal:AbortSignal.timeout(10000)}); if (!response.ok) throw new Error(); source = await response.json(); } catch { select.disabled=true;status.textContent='Translation unavailable. Showing English.';return; }
  dictionary = source;
  select.addEventListener('change',()=>{void changeLanguage(select.value);});

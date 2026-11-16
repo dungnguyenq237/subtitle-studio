@@ -61,7 +61,8 @@ test('both themes have readable tokens, mobile RTL layout, and reduced motion',a
   await page.locator('#site-language').selectOption('en');
  }
 });
-test('delayed brand font does not move the hero after first paint',async({page})=>{
+for(const width of [390,1280])test(`delayed font keeps the ${width}px hero stable`,async({page})=>{
+ await page.setViewportSize({width,height:900});
  await page.addInitScript(()=>{
   window.__layoutShifts=[];
   new PerformanceObserver(list=>{
